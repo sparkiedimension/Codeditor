@@ -1,0 +1,101 @@
+
+body{
+    font-family: 'Nunito';
+}
+
+*{
+  box-sizing: border-box;
+}
+
+#mainWindow
+{
+   width: 100%;
+   height: 700px;
+   background:green;
+    
+   
+}
+#text{
+    height:720px;
+    
+    background:lightblue;
+    
+   
+}
+#textBox{
+    height:750px;
+    float:left;
+    background:lightblue;
+    width: 50%;
+   
+}
+
+#chatWindow{
+    height: 648px;
+    float:right;
+
+    width: 50%;
+    
+    background:grey;
+}
+
+
+#feedback{
+    color: #aaa;
+    background:black;
+    height: 20px;
+  
+    
+}
+
+
+#output{
+    
+    height: 620px;
+   
+    color:white;
+    background:grey;
+}
+
+
+
+label{
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 20px;
+}
+
+input{
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: #eee;
+    border: 0;
+    display: block;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    font-family: Nunito;
+    font-size: 16px;
+}
+
+button{
+    background: #575ed8;
+    color: #fff;
+    font-size: 18px;
+    
+    width: 100%;
+    border-radius: 0 0 2px 2px;
+}
+#upload{
+    
+      background: #575ed8;
+    color: #fff;
+    font-size: 18px;
+    
+    width: 100%;
+    border-radius: 0 0 2px 2px;
+}
+
+}
+
+
